@@ -1,0 +1,259 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Danfo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=M+PLUS+Rounded+1c&family=Matemasie&family=Oswald:wght@200..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+CO+Guides&family=Playwrite+NL+Guides&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+html{
+    overflow-x: hidden;
+}
+
+.site{
+    width: 100%;
+    background-image: url("https://www.yonder.fr/sites/default/files/styles/lg-insert/public/contenu/destinations/grans%20hotel%20four%20seasons%20cap%20ferra%20Club%20Dauphin_0.jpg?itok=pf49OexQ");
+    background-repeat: no-repeat;
+    background-size:1400px;
+}
+
+
+.liste{
+    width: 100%;
+
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 22px;
+    text-decoration: underline  rgb(255, 94, 0);
+padding: 20px;
+}
+
+
+input[type=search]{
+    width:30rem;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+text-align:left;
+border: none;
+color: black;
+
+}
+
+
+
+
+
+input[type=submit]{
+    width: 50%;
+    height: 30px;
+    position: relative;
+    top: 15px;
+  background-color: white;
+   border: none;
+text-align:center;
+border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.inp{
+    display: flex;
+   
+   
+}
+
+i{
+    position: relative;
+    top: 30px;
+    
+    
+}
+
+.font{
+background-color: rgba(245, 245, 245, 0.37);
+width: 45%;
+padding:5%;
+position: relative;
+top: 10px;
+left: 700px;
+border-radius: 20px;
+visibility: hidden;
+
+    
+}
+
+label{
+    display:block;
+    color: white;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+    right: 40px;
+    text-decoration: underline rgb(255, 94, 0);
+    color: white;
+}
+
+input[type=text]{
+    width: 80%;
+    padding: 10px;
+  
+}
+
+#text{
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+.carre2{
+    display: flex;
+   margin-top: 30px;
+  
+}
+
+
+
+
+
+.ctrl{
+    margin-left: 50px;
+}
+
+
+#sub{
+    border: 2px solid black;
+   margin-left: 60px;
+   margin-top: 30px;
+   border-radius: 20px;
+}
+
+
+#blabla{
+    position: relative;
+    top: 300px;
+    right: 220px;
+    color: white;
+    font-size: 30px;
+}
+
+h2{
+position: relative;
+left: 350px;
+text-decoration: underline  rgb(255, 94, 0);
+}
+
+#btn2{
+    width: 200px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.658);
+    border: 2px solid rgb(255, 94, 0);
+    cursor: pointer;
+}
+
+.btn1{
+    position: relative;
+    left: 350px;
+    top: 400px;
+   
+}
+
+
+.black{
+    background-color: yellow;
+}
+
+#btn34{
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: -370px;
+    left:430px; 
+    cursor: pointer;
+
+}
+
+
+#flexbox-ville{
+ display: flex;
+ gap: 20px;
+ position: relative;
+ top: 200px;
+
+margin-left: 20px;
+}
+
+ #ville{
+    border: 2px solid black;
+    padding: 150px;
+    width: 100%;
+border-radius: 20px;
+
+ }
+
+
+ h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    color: rgb(255, 94, 0);
+    text-decoration: underline rgb(53, 181, 212);
+ }
+
+ .b1{
+    background-image: url("https://t3.ftcdn.net/jpg/10/85/09/10/240_F_1085091086_ccFY8tvkfkXQ0i4EGCNAM1U1FpZOBICW.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+
+p{
+    position: relative;
+    top:100px;
+    font-size: 20px;
+    font-family: "Prompt";
+}
+
+
+.cash{
+    border: 2px solid palevioletred;
+    border-radius: 50px;
+    width: 2%;
+    padding: 10px;
+    transform: translate(-150%,-20%);
+    position: absolute;
+z-index: 1;
+background-color: aqua;
+}
