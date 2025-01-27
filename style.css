@@ -10,7 +10,7 @@
 
 
 html {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 svg {
@@ -42,7 +42,7 @@ svg {
 
 ul{
     display: flex;
-
+    list-style-type:none 
 }
 
 a {
@@ -68,7 +68,11 @@ input[type=search] {
 }
 
 
-
+.pp{
+    position: relative;
+    top: -20px;
+    right: -30px;
+}
 
 
 input[type=submit] {
@@ -102,7 +106,7 @@ i {
     width: 45%;
     padding: 5%;
     position: relative;
-    top: 10px;
+    top: -10px;
     left: 700px;
     border-radius: 20px;
     visibility: hidden;
@@ -118,6 +122,7 @@ i {
 label {
     display: block;
     color: white;
+   
 }
 
 
@@ -148,10 +153,9 @@ input[type=text] {
 .carre2 {
     display: flex;
     margin-top: 30px;
-
+position: relative;
+right: 50px;
 }
-
-input[type=date] {}
 
 
 
@@ -201,8 +205,6 @@ h2 {
 }
 
 
-.room {}
-
 .black {
     background-color: yellow;
 }
@@ -212,7 +214,7 @@ h2 {
     padding: 10px;
     border-radius: 50%;
     position: relative;
-    top: -370px;
+    top: -500px;
     left: 430px;
     cursor: pointer;
 
@@ -494,6 +496,12 @@ p {
 }
 
 @media (min-width:351px) and (max-width:400px) {
+
+
+
+    body{
+        background-color: rgba(232, 245, 248, 0.562);
+    }
     .site {
         width: 100%;
         background-image: url("https://www.yonder.fr/sites/default/files/styles/lg-insert/public/contenu/destinations/grans%20hotel%20four%20seasons%20cap%20ferra%20Club%20Dauphin_0.jpg?itok=pf49OexQ");
@@ -501,9 +509,13 @@ p {
         background-size: 800px;
     }
 
+    html,body {
+        overflow-x: hidden !important;
+    }
     a {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
+        background-color:rgb(255, 94, 0) ;
         font-size: 12px;
         text-decoration: underline rgb(255, 94, 0);
         padding: 15px;
@@ -517,7 +529,7 @@ p {
         visibility: hidden;
         background-color: black;
         width: 130px;
-        height: 300px;
+        height: 200px;
         position: relative;
         right: -70px;
     }
@@ -533,7 +545,7 @@ p {
     .inp {
         display: flex;
         position: relative;
-        top: -200px;
+        top: -160px;
         right: 130px;
 
     }
@@ -553,6 +565,15 @@ p {
     }
 
 
+    .ctrl {
+        margin-left: 10px;
+    }
+
+    label {
+        display: block;
+        color: rgb(255, 94, 0);
+       
+    }
 
 
 
@@ -592,8 +613,8 @@ p {
     
 ul{
     display: block;
-    text-decoration: none;
-
+  
+    list-style-type:none 
 }
 
     #blabla {
@@ -609,7 +630,7 @@ ul{
         left: 20px;
         text-decoration: underline rgb(255, 94, 0);
         font-size: 25px;
-        top: -430px;
+        top: -400px;
     }
 
 
@@ -617,7 +638,7 @@ ul{
         display: flex;
         justify-content: center;
         position: relative;
-        top: -450px;
+        top: -430px;
         right: 10px;
         text-decoration: underline rgb(255, 94, 0);
         color: black;
@@ -632,13 +653,13 @@ ul{
     }
 
     .font {
-        background-color: rgba(0, 0, 0, 0.171);
+      
         width: 100%;
         padding: 5%;
         position: relative;
         top: -50px;
         left: 0px;
-        border-radius: 20px;
+        border-radius: 50px;
         visibility: visible;
 
 
@@ -646,7 +667,7 @@ ul{
 
 
     input[type=text] {
-        width: 90%;
+        width: 100%;
         padding: 10px;
 
     }
@@ -655,14 +676,17 @@ ul{
         display: flex;
         justify-content: center;
         margin-top: 30px;
-
-    }
-
+        position: relative;
+        right: 20px;
+        }
+        
+        
+    
 
 
     input[type=date] {
         position: relative;
-        right: 25px;
+        right: 2px;
     }
 
     #btn34 {
@@ -673,14 +697,18 @@ ul{
         top: -330px;
         left: 240px;
         cursor: pointer;
-
+display: none;
     }
 
-
+.pp{
+    position: relative;
+    top: -20px;
+    right: -30px;
+}
     #sub {
-        border: 2px solid black;
-        margin-left: 30px;
-        margin-top: 30px;
+        border: 2px solid  rgb(255, 94, 0) ;
+        margin-left: 70px;
+        margin-top: 10px;
         border-radius: 20px;
         width: 150px;
     }
@@ -706,12 +734,12 @@ ul{
     }
 
     #ville {
-        border: 2px solid black;
+        border: none;
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: 70%;
         border-radius: 20px;
-
+margin-left: 40px;
     }
 
     p {
@@ -719,6 +747,8 @@ ul{
         top: 50px;
         font-size: 17px;
         font-family: "Prompt";
+        width: 80%;
+        margin-left: 40px;
     }
 
 
@@ -730,5 +760,4 @@ ul{
         position: relative;
         top: 330px;
     }
-
 }

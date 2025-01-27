@@ -32,7 +32,14 @@ const svg=document.querySelector("svg");
 console.log(svg);
 
 svg.addEventListener("click",() =>{
-lettre.style.visibility="visible";
+
 inp.style.zIndex = "1";
 inp.style.visibility="visible";
 })
+
+svg.addEventListener("dblclick",() =>{
+ 
+  inp.style.visibility="hidden";
+  })
+  
+  
