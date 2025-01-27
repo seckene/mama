@@ -24,4 +24,15 @@ cash.style.left= e.pageX +"px";
 cash.style.top= e.pageY +"px";
   });
 
- 
+  const inp=document.querySelector(".font2");
+  console.log(inp);
+ const lettre =document.querySelector("a");
+console.log(lettre);
+const svg=document.querySelector("svg");
+console.log(svg);
+
+svg.addEventListener("click",() =>{
+lettre.style.visibility="visible";
+inp.style.zIndex = "1";
+inp.style.visibility="visible";
+})
